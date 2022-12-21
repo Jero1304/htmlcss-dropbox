@@ -10,11 +10,13 @@ a{
     text-decoration: none;
     color: black;
 }
+img{
+    max-width: 100%;
+}
 
 .container{
     max-width: 1500px;
     margin: 0 auto;
-    border: 2px solid black;
 }
 
 .row{
@@ -37,13 +39,48 @@ nav{
     display: flex;
 }
 
+.container-small{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 
 /* DEBUG */
 .debug .bg-blue{
-    background-color: rgb(76, 76, 255);
+    background-color: rgb(94, 94, 248);
+    color: white;
 }
 
 .debug .row-space{
     justify-content: space-between;
     padding: 20px 0 20px 0 ;
+}
+
+.debug .hero{
+    background-color: rgb(115, 170, 248);
+}
+.debug .hero-title{
+    font-size: 50px;
+    padding: 30px 0 20px;
+}
+.debug .hero-sub{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.debug .hero-but{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+/* COL */
+.col-100{
+    flex-basis: 100%;
+}
+.col-13{
+    flex-basis: 33%;
+}
+.col-23{
+    flex-basis: 66%;
 }
