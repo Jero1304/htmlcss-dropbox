@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,menu,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.row{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    margin-top:10px ;
+}
+
+.menu{
+    color: white;
+    display: flex;
+}
+
+.menu-item{
+    padding: 0 20px;
+    line-height: 34px;
+    display: flex;
+}
+
+
+/* DEBUG */
+.debug .bg-blue{
+    background-color: rgb(76, 76, 255);
+}
+
+.debug .row-space{
+    justify-content: space-between;
+    padding: 20px 0 20px 0 ;
+}
