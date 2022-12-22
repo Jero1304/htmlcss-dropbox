@@ -65,6 +65,7 @@ img {
 	color: white;
 }
 
+/* HERO */
 .container {
 	max-width: 1040px;
 	margin: 0 auto;
@@ -136,11 +137,15 @@ img {
 	display: block;
 }
 
+/* CARD */
 .card {
 	/* border: 1px solid lightgrey; */
 	padding: 20px;
 }
-
+.box {
+	border: 1px solid lightgrey;
+	padding:20px;
+}
 .plans .row {
 	row-gap: 50px;
 }
@@ -159,10 +164,6 @@ img {
 	padding: 5px;
 }
 
-.card-main{
-	border: 1px solid lightgrey;
-	padding:20px;
-}
 
 .card-buisness h2, p{
 	padding-bottom:10px ;
@@ -176,6 +177,17 @@ img {
 	padding-top: 40px;
 	display: flex;
 	flex-direction: column;
-	row-gap: 20px;
+	row-gap: 30px;
 	padding-bottom: 15px;
 }
+
+.card-benefit--title {
+	padding-top: 30px ;
+	font-weight: bold;
+}
+
+.card-benefit--list li{
+	padding-top: 20px;
+}
+
+
